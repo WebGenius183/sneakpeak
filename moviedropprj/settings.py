@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yfkmlw3mc^ye8s_@lx^_+4&)i=c*1u+r&0@(0y3v7!shea%+yz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -140,4 +140,5 @@ JAZZMIN_SETTINGS = {
     'site_header': 'MovieDrop',
     'site_brand': 'MovieDrop',
     'welcome_sign': 'Welcom to MovieDrop'
+
 }
